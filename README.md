@@ -52,9 +52,8 @@ This project demonstrates real-world concepts like:
 ---
 
 📁 Project Structure
-railway-management-system/
 
-<img width="222" height="453" alt="image" src="https://github.com/user-attachments/assets/8693aacc-f805-4cd2-bc08-9c34f08dd3a6" />
+<img width="285" height="463" alt="image" src="https://github.com/user-attachments/assets/d13fea66-6bf1-46cf-b4cf-54a9198831c4" />
 
 ---
 
