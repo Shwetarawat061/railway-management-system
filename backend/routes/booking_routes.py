@@ -34,4 +34,5 @@ def book():
 
     conn.commit()
 
-    return jsonify({"message": "Booked", "pnr": pnr})booking
+    return jsonify({"message": "Booked", "pnr": pnr})
+    
