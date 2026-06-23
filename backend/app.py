@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask_jwt_extended import JWTManager
 from config import Config
 
@@ -12,6 +12,26 @@ app.config.from_object(Config)
 
 jwt = JWTManager(app)
 
+# -----------------------
+# Home Route
+# -----------------------
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({
+        "message": "🚆 Railway Management System API",
+        "status": "Running",
+        "version": "1.0",
+        "available_routes": [
+            "/auth/register",
+            "/auth/login",
+            "/train/",
+            "/booking/book",
+            "/admin/train",
+            "/admin/bookings"
+        ]
+    })
+
+# Register Blueprints
 app.register_blueprint(auth_bp, url_prefix="/auth")
 app.register_blueprint(train_bp, url_prefix="/train")
 app.register_blueprint(booking_bp, url_prefix="/booking")
