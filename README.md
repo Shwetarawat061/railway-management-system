@@ -1,117 +1,78 @@
-# 🚆 Railway Management System (Full Stack Project)
+🚆 Railway Management System
 
-A full-stack Railway Management System built using **Flask (Python backend)**, **MySQL database**, and a **Streamlit-based Python UI frontend**.
+A simple full-stack Railway Management System built using Flask, MySQL, and Streamlit. This project was created to learn full-stack development, REST APIs, authentication, and database management.
 
-This project demonstrates real-world concepts like:
-- Role-based authentication (Admin/User)
-- Secure password hashing (bcrypt)
-- Seat booking with locking (no double booking)
-- PNR generation system
-- REST API architecture
-- Full-stack integration
+Features
+User Registration & Login
+JWT Authentication
+Admin and User Roles
+View Available Trains
+Book Train Tickets
+Automatic PNR Generation
+Seat Availability Check
+Prevents Double Booking
+Tech Stack
 
----
+Backend
 
-# 📌 Features
+Python
+Flask
+Flask-JWT-Extended
 
-## 👤 Authentication
-- User registration & login
-- JWT-based secure authentication
-- Role-based access (Admin / User)
+Database
 
-## 🚉 Train Management
-- View all available trains
-- Admin can manage train data
+MySQL
 
-## 🎟️ Booking System
-- Book train tickets
-- Automatic seat availability check
-- Prevents double booking (database-level locking)
-- Generates unique PNR for every booking
+Frontend
 
-## 🔐 Security
-- Password hashing using bcrypt
-- JWT token authentication
-- Role-based API access control
-
----
-
-# 🏗️ Tech Stack
-
-### Backend:
-- Python
-- Flask
-- Flask-JWT-Extended
-
-### Database:
-- MySQL
-
-### Frontend:
-- Streamlit (Python UI)
-
----
-
-📁 Project Structure
-
-<img width="285" height="463" alt="image" src="https://github.com/user-attachments/assets/d13fea66-6bf1-46cf-b4cf-54a9198831c4" />
-
----
-
-# ⚙️ Setup Instructions
-
-## 1. Clone the repository
-```bash
+Streamlit
+Project Structure
+railway-management-system/
+│── backend/
+│── frontend/
+│── database/
+│── requirements.txt
+│── README.md
+Getting Started
+Clone the repository
 git clone https://github.com/your-username/railway-management-system.git
 cd railway-management-system
-2. Create virtual environment
+Create a virtual environment
 python -m venv venv
-venv\Scripts\activate   # Windows
-3. Install dependencies
+
+Activate it:
+
+Windows
+
+venv\Scripts\activate
+Install dependencies
 pip install -r requirements.txt
-4. Setup MySQL database
+Configure MySQL
 
-Run the SQL file located in:
+Import the SQL file and update the database credentials in backend/config.py.
 
-backend/models/init_db.sql
-5. Configure database credentials
-
-Update:
-
-backend/config.py
-6. Run backend server
+Run the Backend
 cd backend
 python app.py
-
-Backend runs at:
-
-http://127.0.0.1:5000
-7. Run frontend (Streamlit UI)
+Run the Frontend
 cd frontend
 streamlit run app.py
+Future Improvements
+Payment Integration
+PDF Ticket Generation
+Admin Dashboard
+Email Notifications
+Better UI
+Learning Outcomes
 
-Frontend runs at:
+This project helped me understand:
 
-http://localhost:8501
+REST APIs
+JWT Authentication
+Password Hashing
+Database Design
+Full-Stack Development
+Role-Based Access Control
+Seat Booking Logic
 
-
----
-
-# 🚀 If you want next upgrade (very powerful)
-
-I can also help you add:
-
-- 📊 Admin dashboard (charts + analytics)
-- 🧾 PDF ticket generation (real railway ticket format)
-- 💳 Payment simulation system
-- ⚡ Microservices split (real industry architecture)
-- 🧠 System design explanation for interviews
-
-Just tell me 👍
-
-
-🔄 System Architecture
-Frontend (Streamlit)
-        ↓
-Flask REST API
-        ↓
-MySQL Database
+This project was built as a learning project to practice backend development, database management, and frontend integration using Python.
