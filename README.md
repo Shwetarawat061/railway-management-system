@@ -1,4 +1,4 @@
-#**🚆 Railway Management System**
+**🚆 Railway Management System**
 
 A simple full-stack Railway Management System built using Flask, MySQL, and Streamlit. This project was created to learn full-stack development, REST APIs, authentication, and database management.
 
