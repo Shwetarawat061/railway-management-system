@@ -1,78 +1,112 @@
-**🚆 Railway Management System**
+# 🚆 Railway Management System
 
-A simple full-stack Railway Management System built using Flask, MySQL, and Streamlit. This project was created to learn full-stack development, REST APIs, authentication, and database management.
+A simple full-stack Railway Management System built using **Flask**, **MySQL**, and **Streamlit**. This project was created to learn full-stack development, REST APIs, authentication, and database management.
 
-**Features**
-User Registration & Login
-JWT Authentication
-Admin and User Roles
-View Available Trains
-Book Train Tickets
-Automatic PNR Generation
-Seat Availability Check
-Prevents Double Booking
-Tech Stack
+## Features
+
+* User Registration & Login
+* JWT Authentication
+* Admin and User Roles
+* View Available Trains
+* Book Train Tickets
+* Automatic PNR Generation
+* Seat Availability Check
+* Prevents Double Booking
+
+## Tech Stack
 
 **Backend**
 
-Python
-Flask
-Flask-JWT-Extended
+* Python
+* Flask
+* Flask-JWT-Extended
 
 **Database**
 
-MySQL
+* MySQL
 
 **Frontend**
 
-Streamlit
-Project Structure
+* Streamlit
+
+## Project Structure
+
+```text
 railway-management-system/
 │── backend/
 │── frontend/
 │── database/
 │── requirements.txt
 │── README.md
-Getting Started
-Clone the repository
-git clone https://github.com/Shwetarawat061/railway-management-system.git
+```
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/railway-management-system.git
 cd railway-management-system
-Create a virtual environment
+```
+
+### Create a virtual environment
+
+```bash
 python -m venv venv
+```
 
 Activate it:
 
-Windows
+**Windows**
 
+```bash
 venv\Scripts\activate
-Install dependencies
+```
+
+### Install dependencies
+
+```bash
 pip install -r requirements.txt
-Configure MySQL
+```
 
-Import the SQL file and update the database credentials in backend/config.py.
+### Configure MySQL
 
-Run the Backend
+Import the SQL file and update the database credentials in `backend/config.py`.
+
+### Run the Backend
+
+```bash
 cd backend
 python app.py
-Run the Frontend
+```
+
+### Run the Frontend
+
+```bash
 cd frontend
 streamlit run app.py
-Future Improvements
-Payment Integration
-PDF Ticket Generation
-Admin Dashboard
-Email Notifications
-Better UI
-Learning Outcomes
+```
 
-**This project helped me understand:**
+## Future Improvements
 
-REST APIs
-JWT Authentication
-Password Hashing
-Database Design
-Full-Stack Development
-Role-Based Access Control
-Seat Booking Logic
+* Payment Integration
+* PDF Ticket Generation
+* Admin Dashboard
+* Email Notifications
+* Better UI
+
+## Learning Outcomes
+
+This project helped me understand:
+
+* REST APIs
+* JWT Authentication
+* Password Hashing
+* Database Design
+* Full-Stack Development
+* Role-Based Access Control
+* Seat Booking Logic
+
+---
 
 This project was built as a learning project to practice backend development, database management, and frontend integration using Python.
