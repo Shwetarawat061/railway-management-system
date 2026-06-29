@@ -1,8 +1,8 @@
-🚆 Railway Management System
+#**🚆 Railway Management System**
 
 A simple full-stack Railway Management System built using Flask, MySQL, and Streamlit. This project was created to learn full-stack development, REST APIs, authentication, and database management.
 
-Features
+**Features**
 User Registration & Login
 JWT Authentication
 Admin and User Roles
@@ -13,17 +13,17 @@ Seat Availability Check
 Prevents Double Booking
 Tech Stack
 
-Backend
+**Backend**
 
 Python
 Flask
 Flask-JWT-Extended
 
-Database
+**Database**
 
 MySQL
 
-Frontend
+**Frontend**
 
 Streamlit
 Project Structure
@@ -65,7 +65,7 @@ Email Notifications
 Better UI
 Learning Outcomes
 
-This project helped me understand:
+**This project helped me understand:**
 
 REST APIs
 JWT Authentication
