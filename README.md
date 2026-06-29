@@ -35,7 +35,7 @@ railway-management-system/
 │── README.md
 Getting Started
 Clone the repository
-git clone https://github.com/your-username/railway-management-system.git
+git clone https://github.com/Shwetarawat061/railway-management-system.git
 cd railway-management-system
 Create a virtual environment
 python -m venv venv
