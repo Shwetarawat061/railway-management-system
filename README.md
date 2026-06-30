@@ -107,6 +107,4 @@ This project helped me understand:
 * Role-Based Access Control
 * Seat Booking Logic
 
----
-
 This project was built as a learning project to practice backend development, database management, and frontend integration using Python.
